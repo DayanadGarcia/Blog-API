@@ -1,5 +1,5 @@
 const { User } = require('../database/models');
-const { HTTP_CONFLICT_STATUS } = require('../helpers/statusCode');
+const { HTTP_CONFLICT_STATUS, HTTP_NOT_FOUND_STATUS } = require('../helpers/statusCode');
 const jwt = require('../helpers/jwtToken');
 
 const errorMsg = (status, message) => ({
@@ -26,7 +26,21 @@ const getAllUsers = async () => {
   return getAll;
 };
 
+const getUserId = async (id) => {
+  const userExists = await User
+  .findOne({ where: { id } });
+  if (!userExists) throw errorMsg(HTTP_NOT_FOUND_STATUS, 'User does not exist');
+
+    const user = await User.findByPk(id,
+      {
+        attributes: {
+           exclude: ['password'],
+        } });
+    return user;
+};
+
 module.exports = {
   newUser,
   getAllUsers,
+  getUserId,
 };
