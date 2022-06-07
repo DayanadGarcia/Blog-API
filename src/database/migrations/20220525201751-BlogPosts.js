@@ -26,10 +26,12 @@ module.exports = {
         }
       },
       published: {
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.now
       },
       updated: {
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.now
       }
       });
   },
