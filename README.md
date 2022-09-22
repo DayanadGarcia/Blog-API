@@ -73,13 +73,16 @@
 
 
 <details>
+  <summary>
+    <strong>👉 Como rodar a aplicação</strong>
+  </summary>
 
 1. Clone o repositório
   * `git clone git@github.com:tryber/sd-017-project-blogs-api.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-017-project-blogs-api`
 
-2. Instale as dependências [**Caso existam**]
+2. Instale as dependências
   * `npm install`
 
 <br />
