@@ -26,6 +26,22 @@
 # Orientações
 
 <details>
+  <summary>
+    <strong>👉 Como abrir a aplicação</strong>
+  </summary>
+
+1. Clone o repositório
+  * `git clone git@github.com:tryber/sd-017-project-blogs-api.git`.
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd sd-017-project-blogs-api`
+
+2. Instale as dependências
+  * `npm install`
+
+<br />
+</details>
+
+<details>
   <summary><strong>🐋 Rodando no Docker vs Localmente</strong></summary>
   
   ## 👉 Com Docker
@@ -69,23 +85,6 @@
   - **✨ Dica:** O avaliador espera que a versão do `node` utilizada seja a 16.
 
   <br/>
-</details>
-
-
-<details>
-  <summary>
-    <strong>👉 Como rodar a aplicação</strong>
-  </summary>
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-017-project-blogs-api.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-017-project-blogs-api`
-
-2. Instale as dependências
-  * `npm install`
-
-<br />
 </details>
 
 <details>
