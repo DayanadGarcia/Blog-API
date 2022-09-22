@@ -149,7 +149,7 @@
 
 <br />
 
-# Requisitos Obrigatórios
+# Requisitos Desenvolvidos
 
 ## 1 - Crie migrations para as entidades User, Categories, BlogPosts, PostCategories
 
